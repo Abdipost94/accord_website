@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-emerald-800 text-white py-8">
+    <footer className="bg-accord-dark text-white py-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -22,8 +22,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Kontakt</h3>
             <address className="not-italic text-sm">
-              <p>Email: info@accord-coaching.com</p> {/* Replace with your actual email */}
-              <p>Telefon: +49 123 456789</p>    {/* Replace with your actual phone number */}
+              <p>Email: info@accord-coaching.com</p>
+              <p>Telefon: +49 123 456789</p>
             </address>
           </div>
           
@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-emerald-700 mt-8 pt-6 text-center text-sm">
+        <div className="border-t border-accord mt-8 pt-6 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} Accord. Alle Rechte vorbehalten.</p>
         </div>
       </div>
